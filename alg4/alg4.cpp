@@ -37,7 +37,7 @@ int main() {
     std::cout << "Динамический массив: ";
     print_dynamic_array(arr, logical_size, actual_size);
 
-    delete[] arr; // Освобождаем память
+    delete[] arr;
     return 0;
 }
 
